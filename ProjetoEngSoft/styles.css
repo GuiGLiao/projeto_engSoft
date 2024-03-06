@@ -41,15 +41,21 @@ input{
 
 .botao {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: .5rem;
-    background-color: #000000;
+    background-color: #e22222da;
     color: #ffffff;
     letter-spacing: .5rem;
     border: none;
     font-size: 1rem;
     margin-top: 1rem;
+    text-decoration: none;
+}
+
+.bcars {
+    display: flex;
+    color: black;
 }
 
 .intro {
