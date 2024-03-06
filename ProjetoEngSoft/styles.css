@@ -113,3 +113,35 @@ input{
 .dropdown a:hover{
     background-color: #c59898;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topo {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: .5rem;
+    padding: .2rem;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+.topo span{
+    color: black;
+    font-size: 1.5rem;
+    transition: 0.2s ease-out;
+}
+
+.topo:hover{
+    background-color: #c4bcbc;
+}
+
+.topo:hover span{
+    transform: translateY(-3px);
+}
