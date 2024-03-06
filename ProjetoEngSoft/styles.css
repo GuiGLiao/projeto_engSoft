@@ -55,6 +55,7 @@ input{
 
 .bcars {
     display: flex;
+
     color: black;
 }
 
@@ -78,11 +79,13 @@ input{
 
 .imgBox {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start; /* Updated from left */
+    align-items: flex-start; /* Updated from top */
+    height: auto; /* Updated from 50px */
+    width: 75%;
     border: 1px solid #000;
     padding: 150px; /* Increased from 10px */
-    margin: 10px; /* Increased from 10px */
+    margin: auto; /* Updated from 10px to auto */
     background-color: #f7f7f7ce;
 }
 

@@ -17,7 +17,7 @@
 </head>
 
 <div class = "logo">
-    <header style="display: flex; justify-content: center;height: 140px;">
+    <header style="display: flex; justify-content: center;height: 100px;">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gran_Turismo_stylised_series_logo_%28black%29.svg/270px-Gran_Turismo_stylised_series_logo_%28black%29.svg.png">
     </header>
 </div>
@@ -67,15 +67,34 @@
         <input type="search" id="search" data-search placeholder="Search...">
     </div>
     <div class="user-cards" data-user-cards-container></div>
-    <template data-user-template>
-        <div class="card">
-            <div class="header" data-header></div>
-            <div class="body" data-body></div>
-        </div>
-    </template>
-    <div class = "imgBox">
-        <div class="text-box" style="width: 500px; height: 300px; overflow: auto;">
+    <div class = "imgBox" style="text-align: left; padding-top: 15px;">
             <p id="text-content"></p>
+            <div class="tutorial">
+                <h1>Instalação do Emulador</h1>
+                <p>Para instalar e utilizar o Emulador duckstation, siga os seguintes passos:</p>
+                <ol>
+                    <li>Acesse o site do emulador <a href="https://www.duckstation.org/windl.html">duckstation.</a></li>
+                    <li>Selecione a opção que se adequa ao usuário.</li>
+                    <li>Após o download, extraia o arquivo no diretório desejado.</li>
+                    <li>Dentro da pasta do emulador, crie uma nova pasta chamada "bios".</li>
+                    <li>Siga as instruções do instalador e defina um lugar para armazenar os jogos baixados.</li>
+                    <li>Após a instalação, é necessário baixar a ISO do jogo, podendo ser obtida em <a href="https://www.lategames.net/playstation-rom-gran-turismo/">https://www.lategames.net/playstation-rom-gran-turismo/.</a></li>
+                </ol>
+
+                <h2>BIOS PS1</h2>
+                <p>Para jogar o Gran Turismo 1, é necessário ter a BIOS do PS1. Siga os seguintes passos para instalar a BIOS:</p>
+                <ol>
+                    <li>Crie uma pasta "bios" no diretório do duckstation.</li>
+                    <li>Acesse o site x e baixe o zip.</li>
+                    <li>Extraia o arquivo SCPH1001.BIN dentro na pasta "bios".</li>
+                    <li>Prossiga com o processo de instalação.</li>
+                </ol>
+
+                <h3>Vídeo tutorial</h3>
+                <p>Para um tutorial mais detalhado, acesse o vídeo:</p> 
+                    <iframe width="500" height="315"
+                    src="https://www.youtube.com/embed/eeK6MG2GkXU">
+                    </iframe>
         </div>
     </div>
     <a href="#" class="topo">

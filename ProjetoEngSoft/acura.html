@@ -17,7 +17,7 @@
 </head>
 
 <div class = "logo">
-    <header style="display: flex; justify-content: center;height: 140px;">
+    <header style="display: flex; justify-content: center;height: 100px;">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gran_Turismo_stylised_series_logo_%28black%29.svg/270px-Gran_Turismo_stylised_series_logo_%28black%29.svg.png">
     </header>
 </div>
@@ -62,11 +62,33 @@
     </div>
 </header>
 <body>
+    
     <div class="search-bar">
         <label for="search"></label>
         <input type="search" id="search" data-search placeholder="Search...">
     </div>
-    <div class="user-cards" data-user-cards-container></div>
+        <template data-user-template>
+            <div class="card">
+                <div class="header" data-header></div>
+                <div class="body" data-body></div>
+            </div>
+        </template>
+        <div class = "imgBox">
+            <div class ="acura_logo">
+                <header style="display: flex; justify-content: center;height: 140px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Acura_logo.svg/200px-Acura_logo.svg.png">
+                </header>
+            </div>
+            <div class="text-box" style="width: 500px; height: 300px; overflow: auto;">
+                <p id="text-content"></p>
+            </div>
+        </div>
+        
+        <a href="#" class="topo">
+            <span class="material-symbols-outlined">arrow_upward</span>
+        </a>
+        <body id="background-image"></body>
+    </body>
     <template data-user-template>
         <div class="card">
             <div class="header" data-header></div>
@@ -78,6 +100,7 @@
             <p id="text-content"></p>
         </div>
     </div>
+    
     <a href="#" class="topo">
         <span class="material-symbols-outlined">arrow_upward</span>
     </a>
