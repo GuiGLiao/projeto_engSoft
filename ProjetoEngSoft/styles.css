@@ -95,6 +95,7 @@ input{
 .dropdown .content{
     display: none;
     position: absolute;
+    letter-spacing: 1px;
     background-color:#faf3f1;
     min-width: 100px;
     box-shadow: 2px 2px 5px black;
