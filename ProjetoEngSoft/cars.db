@@ -1,0 +1,12 @@
+CREATE DATABASE CarDatabase;
+
+USE CarDatabase;
+
+CREATE TABLE Cars (
+    id INT AUTO_INCREMENT,
+    brand VARCHAR(255),
+    car VARCHAR(255),
+    PRIMARY KEY(id)
+);
+
+INSERT INTO Cars (id, brand, car) VALUES (1, 'MERCEDES', 'Guiliao');

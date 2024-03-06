@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #background-image {
+            background-image: url('https://images4.alphacoders.com/120/1203137.jpg');
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<header style="display: flex; justify-content: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gran_Turismo_stylised_series_logo_%28black%29.svg/270px-Gran_Turismo_stylised_series_logo_%28black%29.svg.png">
+</header>
+<header>   
+    <div class="botao">
+        <button>
+            <a href="index.html">Home</a>
+        </button>
+        <button>
+            <a href="marcas.html">Marcas</a>
+        </button>
+        <button>
+            <a href="carros.html">Carros</a>
+        </button>
+
+        <button>
+            <a href="circuitos.html">Circuitos</a>
+        </button>
+        <button>
+            <a href="torneios.html">Torneios</a>
+        </button>        
+        <button>
+            <a href="tutorial.html">Instalação</a>
+        </button>
+    </div>
+</header>
+<body>
+    <div class="search-bar">
+        <label for="search">Search</label>
+        <input type="search" id="search" data-search>
+    </div>
+    <div class="user-cards" data-user-cards-container></div>
+    <template data-user-template>
+        <div class="card">
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+        </div>
+    </template>
+</body>
