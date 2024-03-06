@@ -70,3 +70,45 @@ input{
     background-color: #f7f7f7ce;
 }
 
+.imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 150px; /* Increased from 10px */
+    margin: 10px; /* Increased from 10px */
+    background-color: #f7f7f7ce;
+}
+
+.dropdown button {
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color:#faf3f1;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: #f7f7f7;
+}
+
+.dropdown a:hover{
+    background-color: #c59898;
+}

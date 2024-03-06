@@ -8,24 +8,43 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         #background-image {
-            background-image: url('https://images4.alphacoders.com/120/1203137.jpg');
+            background-image: url('https://m.media-amazon.com/images/M/MV5BY2ZmNzY0M2EtY2ExMC00ZjVkLTgwODgtMTliZTE0OWU3ZjIwXkEyXkFqcGdeQXVyNjA5MDY0Mw@@._V1_.jpg');
             background-size: cover;
             height: 100vh;
         }
     </style>
 </head>
 
-<header style="display: flex; justify-content: center;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gran_Turismo_stylised_series_logo_%28black%29.svg/270px-Gran_Turismo_stylised_series_logo_%28black%29.svg.png">
-</header>
+<div class = "logo">
+    <header style="display: flex; justify-content: center;height: 140px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gran_Turismo_stylised_series_logo_%28black%29.svg/270px-Gran_Turismo_stylised_series_logo_%28black%29.svg.png">
+    </header>
+</div>
 <header>   
     <div class="botao">
         <button>
             <a href="index.html">Home</a>
         </button>
-        <button>
-            <a href="marcas.html">Marcas</a>
-        </button>
+        <div class="dropdown">
+            <button>
+                <a href="marcas.html">Marcas</a>
+            </button>
+            <div class ="content">
+                <a href="acura.html">Acura</a>
+                <a href="aston_martin.html">Astor Martin</a>
+                <a href="chevrolet.html">Chevrolet</a>
+                <a href="dodge.html">Dodge</a>
+                <a href="honda.html">Honda</a>
+                <a href="mazda.html">Mazda</a>
+                <a href="mitsubishi.html">Mitsubishi</a>
+                <a href="nismo.html">Nismo</a>
+                <a href="nissan.html">Nissan</a>
+                <a href="subaru.html">Subaru</a>
+                <a href="toyota.html">Toyota</a>
+                <a href="trd.html">TRD</a>
+                <a href="tvr.html">TVR</a>
+            </div>
+        </div>
         <button>
             <a href="carros.html">Carros</a>
         </button>
@@ -43,8 +62,8 @@
 </header>
 <body>
     <div class="search-bar">
-        <label for="search">Search</label>
-        <input type="search" id="search" data-search>
+        <label for="search"></label>
+        <input type="search" id="search" data-search placeholder="Search...">
     </div>
     <div class="user-cards" data-user-cards-container></div>
     <template data-user-template>
@@ -53,4 +72,10 @@
             <div class="body" data-body></div>
         </div>
     </template>
+    <div class = "imgBox">
+        <div class="text-box" style="width: 500px; height: 300px; overflow: auto;">
+            <p id="text-content"></p>
+        </div>
+    </div>
+    <body id="background-image"></body>
 </body>
