@@ -69,8 +69,8 @@ input{
 
 .text-box {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: left;
+    justify-content: left;
     border: 1px solid #000;
     padding: 150px; /* Increased from 10px */
     margin: 10px; /* Increased from 10px */
@@ -86,7 +86,7 @@ input{
     border: 1px solid #000;
     padding: 150px; /* Increased from 10px */
     margin: auto; /* Updated from 10px to auto */
-    background-color: #f7f7f7ce;
+    background-color: #f7f7f7d0;
 }
 
 .dropdown button {
@@ -154,3 +154,4 @@ html{
 .topo:hover span{
     transform: translateY(-3px);
 }
+
