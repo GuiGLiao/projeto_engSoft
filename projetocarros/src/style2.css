@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* || RESET */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-image: url('https://m.media-amazon.com/images/M/MV5BY2ZmNzY0M2EtY2ExMC00ZjVkLTgwODgtMTliZTE0OWU3ZjIwXkEyXkFqcGdeQXVyNjA5MDY0Mw@@._V1_.jpg');
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.849);
+    color:#1f1c1c;
+    min-height: 100vh;
+    max-width: 1400px;
+    margin:0 auto;
+    border-left: black;
+    border-right: black;
+}
+
+.botao {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5rem;
+    background-color: #e22222da;
+    color: #ffffff;
+    letter-spacing: .5rem;
+    border: none;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.botao a{
+    font-size: 2rem;
+}
+
+.header__h1{
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 3rem;
+      
+}
+
+footer{
+    text-align: center;
+    padding: 2rem;
+}
+
+h1,h2,h3{
+    font-size: 2.5em;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+}
+
+.tutorial{
+    text-align:left;
+    list-style:decimal;
+    list-style-position:inside;
+    line-height: 4vh;
+    padding-left: 10px;
+}
+
+.tutorial h1,h2,h3{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header_ol li{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.dropdown button {
+    color: black;
+    cursor: pointer;
+}
+
+
+.dropdown a{
+    display:block;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+
+}
+
+
+.dropdown .content{
+    display:none;
+    z-index: 999;
+    position: absolute;
+    letter-spacing: 1px;
+    background-color:#faf3f1;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+    font-size: 2rem;
+
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: #f7f7f7;
+}
+
+.Marcas_Tabelas table,h3{
+     margin-right: auto;
+     margin-left: auto;
+     text-align: center;
+}
+.Marcas_Tabelas ul{
+    list-style-type:circle;
+    padding-left: 25px;
+    font-size: 1.5rem;
+}
+
+.license_ul li{
+    font-size: 1.5rem;
+    padding-left: 4rem;
+    margin-top: 1rem;
+    list-style-type: none;
+    color: rgb(185, 16, 16);
+}
+
+.license_ul p{
+    margin-top: 0.5rem;
+    padding-left: 20px;
+    color: rgb(36, 43, 38);
+}
+
+.formTitle{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+.Inicio h1{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    border: none
+}
