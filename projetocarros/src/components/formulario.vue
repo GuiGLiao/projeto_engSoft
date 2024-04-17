@@ -88,10 +88,13 @@ async function submit(){
 }
 const pistas = [
   {
-    value: 'Interlagos'
+    value: 'Autumn Ring'
   },
   {
-    value: 'Suzuka'
+    value: 'Clubman Stage Route 5'
+  },
+  {
+    value: 'Deep Forest Raceway'
   }
 ]
 const options = [
@@ -100,50 +103,16 @@ const options = [
     label: 'Acura',
     children: [
       {
-        value: 'ILX',
-        label: 'ILX'
+        value: 'Acura INTEGRA GS-R',
+        label: 'Acura INTEGRA Type-R'
       },
       {
-        value: 'MDX',
-        label: 'MDX'
+        value: 'Acura INTEGRA Type-R',
+        label: 'Acura INTEGRA Type-R'
       },
       {
-        value: 'NSX',
-        label: 'NSX'
-      },
-      {
-        value: 'RDX',
-        label: 'RDX'
-      },
-      {
-        value: 'RLX',
-        label: 'RLX'
-      },
-      {
-        value: 'TLX',
-        label: 'TLX'
-      }
-    ]
-  },
-  {
-    value: 'Alfa Romeo',
-    label: 'Alfa Romeo',
-    children: [
-      {
-        value: '4C',
-        label: '4C'
-      },
-      {
-        value: 'Giulia',
-        label: 'Giulia'
-      },
-      {
-        value: 'Stelvio',
-        label: 'Stelvio'
-      },
-      {
-        value: 'Quadrifoglio',
-        label: 'Quadrifoglio'
+        value: 'Acura NSX',
+        label: 'Acura NSX'
       }
     ]
   },
@@ -152,20 +121,100 @@ const options = [
     label: 'Aston Martin',
     children: [
       {
-        value: 'DB11',
-        label: 'DB11'
+        value: 'Aston Martin DB7 Coupe',
+        label: 'Aston Martin DB7 Coupe'
       },
       {
-        value: 'DBS Superleggera',
-        label: 'DBS Superleggera'
+        value: 'Aston Martin DB7 Volante',
+        label: 'Aston Martin DB7 Volante'
+      }
+    ]
+  },
+  {
+    value: 'Chevrolet',
+    label: 'Chevrolet',
+    children: [
+      {
+        value: 'Chevrolet 96 Corvette COUPE',
+        label: 'Chevrolet 96 Corvette COUPE'
       },
       {
-        value: 'Rapide AMR',
-        label: 'Rapide AMR'
+        value: 'Chevrolet 96 Corvette GRAND SPORT',
+        label: 'Chevrolet 96 Corvette GRAND SPORT'
       },
       {
-        value: 'Vantage',
-        label: 'Vantage'
+        value: 'Chevrolet Camaro Z28',
+        label: 'Chevrolet Camaro Z28'
+      }
+    ]
+  },
+  {
+    value: 'Dodge',
+    label: 'Dodge',
+    children: [
+      {
+        value: 'Dodge Concept Car',
+        label: 'Dodge Concept Car'
+      },
+      {
+        value: 'Dodge Concept Car LM Edition',
+        label: 'Dodge Concept Car LM Edition'
+      },
+      {
+        value: 'Dodge Viper GTS 96',
+        label: 'Dodge Viper GTS 96'
+      }
+    ]
+  },
+  {
+    value: 'Honda',
+    label: 'Honda',
+    children: [
+      {
+        value: 'Honda ACCORD SEDAN SiR',
+        label: 'Honda ACCORD SEDAN SiR'
+      },
+      {
+        value: 'Honda ACCORD WAGON SiR',
+        label: 'Honda ACCORD WAGON SiR'
+      },
+      {
+        value: 'Honda NSX',
+        label: 'Honda NSX'
+      }
+    ]
+  },{
+    value: 'Mazda',
+    label: 'Mazda',
+    children: [
+      {
+        value: 'Mazda DEMIO A spec',
+        label: 'Mazda DEMIO A spec'
+      },
+      {
+        value: 'Mazda EUNOS COSMO 13BTYPE-SCCS',
+        label: 'Mazda EUNOS COSMO 13BTYPE-SCCS'
+      },
+      {
+        value: 'Mazda FD EFINI RX-7 Type R',
+        label: 'Mazda FD EFINI RX-7 Type R'
+      }
+    ]
+  },{
+    value: 'Toyota',
+    label: 'Toyota',
+    children: [
+      {
+        value: 'Toyota AE86 COROLLA LEVIN GT-APEX',
+        label: 'Toyota AE86 COROLLA LEVIN GT-APEX'
+      },
+      {
+        value: 'Toyota MR2 G-Limited',
+        label: 'Toyota MR2 G-Limited'
+      },
+      {
+        value: 'Toyota SUPRA 95 RZ',
+        label: 'Toyota SUPRA 95 RZ'
       }
     ]
   }
